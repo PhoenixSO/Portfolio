@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* box-sizing: border-box; */
+            box-sizing: content-box;
+        }
+
+        body {
+            background-color: #000;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            border-radius: 15px;
+            margin: 1%;
+            background: #1b1b1b;
+            width: 98vw;
+            height: 92vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .IMAGE {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            border: 2px solid white;
+            border-radius: 10px;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .study,
+        .batch {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .education {
+            font-size: 14px;
+            line-height: 1.5;
+            max-width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img class="IMAGE" src="DSC_5617.JPG" alt="DSC_5617.JPG" srcset="">
+            <div class="name">Krishna Kumar</div>
+            <div class="study">Studying in IIIT Manipur</div>
+            <div class="batch">Batch : 2025-29</div>
+            <div class="education">Education :
+                10th from Vidya Niketan
+                12th from Mayfield Global School with CSE
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
